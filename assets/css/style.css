@@ -90,7 +90,7 @@ main {
 	flex: 1;
 }
 
-.hero, .app-showcase, .privacy-policy {
+.hero, .app-showcase {
 	text-align: center;
 }
 
@@ -120,6 +120,51 @@ p {
 
 .platform-links {
 	margin: 1.5rem 0;
+}
+
+.privacy_container {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 20px;
+	background-color: #f9f9f9;
+	color: #333;
+
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.privacy_container h1 {
+	font-size: 2em;
+	color: #2c3e50;
+}
+.privacy_container h2 {
+	font-size: 1.5em;
+	color: #34495e;
+	margin-top: 20px;
+}
+.privacy_container h3 {
+	font-size: 1.3em;
+	color: #44495e;
+	margin-top: 20px;
+}
+.privacy_container p,
+.privacy_container li {
+	font-size: 1em;
+	color: #555;
+}
+.privacy_container a {
+	color: #007bff;
+	text-decoration: none;
+}
+.privacy_container a:hover {
+	text-decoration: underline;
+}
+.privacy_container ul {
+	padding-left: 20px;
 }
 
 footer {
