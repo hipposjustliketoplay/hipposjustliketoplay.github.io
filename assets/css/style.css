@@ -255,6 +255,23 @@ p {
   background: rgba(255, 255, 255, 0.24);
 }
 
+.button.store-ios {
+  background: #ffffff;
+  color: #111827;
+}
+
+.button.store-ios:hover {
+  background: #eef2ff;
+}
+
+.button.store-android {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.button-ghost {
+  border: 1px solid rgba(255, 255, 255, 0.26);
+}
+
 .section-title {
   margin: 2.2rem 0 0.9rem;
 }
@@ -353,6 +370,14 @@ p {
 .platform-button {
   background: var(--accent);
   color: #fff;
+}
+
+.platform-button.ios {
+  background: #1f2937;
+}
+
+.platform-button.ios:hover {
+  background: #111827;
 }
 
 .platform-button:hover {
@@ -472,6 +497,7 @@ p {
   .app-shell {
     grid-template-columns: 1fr;
   }
+
 }
 
 @media (max-width: 500px) {
