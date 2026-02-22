@@ -215,6 +215,27 @@ p {
   color: rgba(242, 247, 255, 0.92);
 }
 
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.7rem;
+}
+
+.app-title h1 {
+  margin-bottom: 0;
+}
+
+.hero-app-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 6px 14px rgba(4, 10, 24, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+}
+
 .actions {
   margin-top: 1.25rem;
   display: flex;
@@ -298,6 +319,17 @@ p {
 .card h3 {
   font-size: 1.3rem;
   margin-bottom: 0.4rem;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+  box-shadow: 0 4px 10px rgba(20, 42, 96, 0.12);
+  border: 1px solid #dfe6f8;
+  background: #fff;
 }
 
 .card p {
@@ -513,6 +545,17 @@ p {
 
   .actions {
     flex-direction: column;
+  }
+
+  .app-title {
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+
+  .hero-app-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
   }
 
   .button,
